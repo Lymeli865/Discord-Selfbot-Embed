@@ -127,10 +127,3 @@ class Embed:
             return url
 
     set_color = set_colour
-
-
-
-embed = Embed("title", description="descc", color="#ffffff")
-embed.set_author("and i came")
-
-print(embed.generate_url(hide_url=True))
